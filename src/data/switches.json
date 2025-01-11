@@ -1,0 +1,8 @@
+ [
+      {"model": "Lite", "poe_availability_w": 45, "supported_poe_modes": ["PoE", "PoE+"]},
+      {"model": "Standard", "poe_availability_w": 42, "supported_poe_modes": ["PoE", "PoE+"]},
+      {"model": "Professional", "poe_availability_w": 120, "supported_poe_modes": ["PoE", "PoE+", "PoE++ (Type 3)"]},
+      {"model": "Pro Max", "poe_availability_w": 180, "supported_poe_modes": ["PoE", "PoE+", "PoE++ (Type 3)"]},
+      {"model": "Enterprise", "poe_availability_w": 120, "supported_poe_modes": ["PoE", "PoE+"]},
+      {"model": "Enterprise Campus", "poe_availability_w": 950, "supported_poe_modes": ["PoE", "PoE+", "PoE++ (Type 3)", "PoE++ (Type 4)"]}
+    ]

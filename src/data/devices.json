@@ -1,0 +1,53 @@
+{
+    "devices": [
+      {
+        "category": "Access Points",
+        "models": [
+          {"name": "UK Ultra", "power_consumption_w": 8, "poe_modes": ["PoE"]},
+          {"name": "U6+", "power_consumption_w": 9, "poe_modes": ["PoE"]},
+          {"name": "U6 Mesh Pro", "power_consumption_w": 9, "poe_modes": ["PoE"]},
+          {"name": "U6 Pro", "power_consumption_w": 13, "poe_modes": ["PoE"]},
+          {"name": "U6 Mesh", "power_consumption_w": 13, "poe_modes": ["PoE"]},
+          {"name": "U6 In-Wall", "power_consumption_w": 13, "poe_modes": ["PoE"]},
+          {"name": "U6 Long-Range", "power_consumption_w": 18.5, "poe_modes": ["PoE+"]},
+          {"name": "U7 Outdoor", "power_consumption_w": 19, "poe_modes": ["PoE+"]},
+          {"name": "U6 Enterprise", "power_consumption_w": 22, "poe_modes": ["PoE+"]},
+          {"name": "U7 Pro Wall", "power_consumption_w": 22, "poe_modes": ["PoE+"]},
+          {"name": "U6 Enterprise In-Wall", "power_consumption_w": 21, "poe_modes": ["PoE+"]},
+          {"name": "U7 Pro", "power_consumption_w": 21, "poe_modes": ["PoE+"]},
+          {"name": "U7 Pro Max", "power_consumption_w": 25, "poe_modes": ["PoE++ (Type 3)"]},
+          {"name": "E7", "power_consumption_w": 43, "poe_modes": ["PoE++ (Type 3)"]},
+          {"name": "E7 Campus", "power_consumption_w": 44, "poe_modes": ["PoE++ (Type 3)"]},
+          {"name": "E7 Audience", "power_consumption_w": 51, "poe_modes": ["PoE++ (Type 3)"]}
+        ]
+      },
+      {
+        "category": "Physical Security",
+        "models": [
+          {"name": "G5 Flex", "power_consumption_w": 4, "poe_modes": ["PoE"]},
+          {"name": "G5 Bullet", "power_consumption_w": 5, "poe_modes": ["PoE"]},
+          {"name": "G2 Reader", "power_consumption_w": 5, "poe_modes": ["PoE"]},
+          {"name": "Intercom Viewer", "power_consumption_w": 5, "poe_modes": ["PoE"]},
+          {"name": "G5 Dome", "power_consumption_w": 7.7, "poe_modes": ["PoE"]},
+          {"name": "AI Bullet", "power_consumption_w": 7.7, "poe_modes": ["PoE"]},
+          {"name": "AI 360", "power_consumption_w": 8.6, "poe_modes": ["PoE"]},
+          {"name": "G5 Pro", "power_consumption_w": 10, "poe_modes": ["PoE"]},
+          {"name": "AI Pro", "power_consumption_w": 11, "poe_modes": ["PoE"]},
+          {"name": "Intercom", "power_consumption_w": 13, "poe_modes": ["PoE"]},
+          {"name": "Access Ultra", "power_consumption_w": 18, "poe_modes": ["PoE+"]},
+          {"name": "Door Hub", "power_consumption_w": 30, "poe_modes": ["PoE++ (Type 3)"]},
+          {"name": "PTZ Ultra", "power_consumption_w": 42.9, "poe_modes": ["PoE++ (Type 3)"]},
+          {"name": "Enterprise Access Hub", "power_consumption_w": 240, "poe_modes": ["PoE++ (Type 4)"]}
+        ]
+      },
+      {
+        "category": "Smart Building Devices",
+        "models": [
+          {"name": "Phone Touch", "power_consumption_w": 8, "poe_modes": ["PoE"]},
+          {"name": "Phone Touch Max", "power_consumption_w": 15, "poe_modes": ["PoE+"]},
+          {"name": "Connect Display", "power_consumption_w": 27, "poe_modes": ["PoE++ (Type 3)"]}
+        ]
+      }
+    ]
+  }
+  
