@@ -190,7 +190,7 @@ function App() {
                       onChange={(e) =>
                         handleQuantityChange(groupIndex, deviceIndex, parseInt(e.target.value))
                       }
-                      style={{ padding: '5px', width: '60px' }}
+                      style={{ padding: '5px', width: '50px' }}
                     />
                   </td>
                   <td style={{ padding: '10px', textAlign: 'left' }}>
