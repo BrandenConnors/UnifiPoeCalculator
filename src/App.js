@@ -107,7 +107,7 @@ function App() {
   };
 
   return (
-    <div style={{ padding: '20px', backgroundColor: '#003366', minHeight: '100vh', color: 'white' }}>
+    <div style={{ padding: '20px', backgroundColor: '#003366', minHeight: '100vh', color: 'white', marginBottom: '20px' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '20px'  }}>Unifi PoE Calculator</h1>
       <button
         onClick={addDeviceGroup}
