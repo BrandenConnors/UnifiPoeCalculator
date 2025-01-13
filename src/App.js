@@ -171,7 +171,7 @@ function App() {
               <tr style={{ backgroundColor: '#f0f0f0' }}>
                 <th style={{ padding: '10px', textAlign: 'left', width: '30%' }}>Device</th>
                 <th style={{ padding: '10px', textAlign: 'left', width: '20%' }}>
-                  Power Consumption (W)
+                  PoE (W)
                 </th>
                 <th style={{ padding: '10px', textAlign: 'left', width: '20%' }}>Quantity</th>
                 <th style={{ padding: '10px', textAlign: 'left', width: '30%' }}>Actions</th>

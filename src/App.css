@@ -81,3 +81,11 @@ body {
     transform: rotate(360deg);
   }
 }
+
+th .text {
+  display: inline;
+}
+th .icon {
+  display: none; /* Hide icons by default */
+}
+
