@@ -64,7 +64,7 @@
         ]
       }
     ],
-    "switches": [
+    "category": "switches", [
         {"model": "Pro Max 48 PoE", "poe_availability_w": 720, "supported_poe_modes": ["PoE", "PoE+", "PoE++"]},
         {"model": "Pro 48 PoE", "poe_availability_w": 600, "supported_poe_modes": ["PoE", "PoE+", "PoE++"]},
         {"model": "Enterprise 48 PoE", "poe_availability_w": 720, "supported_poe_modes": ["PoE", "PoE+"]},
