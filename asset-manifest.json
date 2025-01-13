@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/UnifiPoeCalculator/static/css/main.e6c13ad2.css",
-    "main.js": "/UnifiPoeCalculator/static/js/main.6243022d.js",
+    "main.js": "/UnifiPoeCalculator/static/js/main.92ed550b.js",
     "static/js/488.8a9886c7.chunk.js": "/UnifiPoeCalculator/static/js/488.8a9886c7.chunk.js",
     "index.html": "/UnifiPoeCalculator/index.html",
     "main.e6c13ad2.css.map": "/UnifiPoeCalculator/static/css/main.e6c13ad2.css.map",
-    "main.6243022d.js.map": "/UnifiPoeCalculator/static/js/main.6243022d.js.map",
+    "main.92ed550b.js.map": "/UnifiPoeCalculator/static/js/main.92ed550b.js.map",
     "488.8a9886c7.chunk.js.map": "/UnifiPoeCalculator/static/js/488.8a9886c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.6243022d.js"
+    "static/js/main.92ed550b.js"
   ]
 }
