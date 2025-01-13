@@ -108,7 +108,7 @@ function App() {
 
   return (
     <div style={{ padding: '20px', backgroundColor: '#003366', minHeight: '100vh', color: 'white' }}>
-      <h1 style={{  textAlign:'center' }}>Unifi PoE Calculator</h1>
+      <h1 style={{  marginBottom: '20px', 'center' }}>Unifi PoE Calculator</h1>
       <button
         onClick={addDeviceGroup}
         style={{
@@ -123,46 +123,47 @@ function App() {
       </button>
 
       {error && <div style={{ color: 'red', textAlign: 'center' }}>{error}</div>}
-    {deviceGroups.map((group, groupIndex) => (
-  <div
-    key={groupIndex}
-    style={{
-      marginBottom: '30px',
-      padding: '10px',
-      border: '1px solid #ddd',
-      borderRadius: '8px',
-      backgroundColor: 'white',
-      color: 'black',
-      marginTop: groupIndex === 0 ? '20px' : '0', // Margin above the first group
-    }}
-  >
-    <h3>
-      <input
-        type="text"
-        value={group.name}
-        onChange={(e) => handleGroupNameChange(groupIndex, e.target.value)}
-        style={{
-          padding: '5px',
-          width: '100%',
-          marginBottom: '10px',
-          fontSize: '18px',
-          boxSizing: 'border-box', // Fix width overflow
-        }}
-      />
-    </h3>
-    <button
-      onClick={() => removeDeviceGroup(groupIndex)}
-      style={{
-        padding: '5px 10px',
-        backgroundColor: '#ff4d4d',
-        color: 'white',
-        border: 'none',
-        borderRadius: '5px',
-        marginBottom: '10px',
-      }}
-    >
-      Delete Group
-    </button>
+
+      {deviceGroups.map((group, groupIndex) => (
+        <div
+          key={groupIndex}
+          style={{
+            marginBottom: '30px',
+            padding: '10px',
+            border: '1px solid #ddd',
+            borderRadius: '8px',
+            backgroundColor: 'white',
+            color: 'black',
+          }}
+        >
+          <h3>
+            <input
+              type="text"
+              value={group.name}
+              onChange={(e) => handleGroupNameChange(groupIndex, e.target.value)}
+              style={{
+                padding: '5px',
+                width: 'calc(100% - 10px)', // Ensures it fits within the container
+                marginBottom: '10px',
+                fontSize: '18px',
+                boxSizing: 'border-box',
+              }}
+            />
+          </h3>
+
+          <button
+            onClick={() => removeDeviceGroup(groupIndex)}
+            style={{
+              padding: '5px 10px',
+              backgroundColor: '#ff4d4d',
+              color: 'white',
+              border: 'none',
+              borderRadius: '5px',
+              marginBottom: '10px',
+            }}
+          >
+            Delete Group
+          </button>
 
           <table style={{ width: '100%', borderCollapse: 'collapse', tableLayout: 'fixed' }}>
             <thead>
